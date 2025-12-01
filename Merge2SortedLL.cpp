@@ -1,15 +1,19 @@
 // # Intuition
-// <!-- Describe your first thoughts on how to solve this problem. -->
+// -> Use recursion on the basis of which element is greater 
 
 // # Approach
-// <!-- Describe your approach to solving the problem. -->
+// -> if any of the list is NULL return the other list.
+// -> if first element is smaller then call the same function starting with next element of the first list and same element of the second list.
+// -> and if second element is smaller call from next element of the second list and same for first.
+// -> If list1 have first smallest element then return list1.
+// -> Else return list2.
 
 // # Complexity
 // - Time complexity:
-// <!-- Add your time complexity here, e.g. $$O(n)$$ -->
+// O(1)
 
 // - Space complexity:
-// <!-- Add your space complexity here, e.g. $$O(n)$$ -->
+// O(1)
 
 // # Code
 // ```cpp []
