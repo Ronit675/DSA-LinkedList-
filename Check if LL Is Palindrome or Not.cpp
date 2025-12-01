@@ -4,14 +4,15 @@
 // # Approach
 // -> Use fast and slow pointer approach to find the middle element of the list.
 // -> Reverse the other half of the list.
-// -> 
+// -> Bring fast to the head and slow to the new head.
+// -> Check if the fast and slow elements match or not. 
 
 // # Complexity
 // - Time complexity:
-// 
+// -> O(N)
 
 // - Space complexity:
-// 
+// -> O(1)
 
 // # Code
 // cpp
