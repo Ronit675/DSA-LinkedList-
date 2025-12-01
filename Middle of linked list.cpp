@@ -1,15 +1,17 @@
 // # Intuition
-// <!-- Describe your first thoughts on how to solve this problem. -->
+// -> Use fast and slow pointers. 
 
 // # Approach
-// <!-- Describe your approach to solving the problem. -->
+// -> Move slow pointer by one step and fast pointer by 2 steps.
+// -> Move untill fast reaches to the end element of the list.
+// -> When the fast points to last element, the slow will point to middle element of the list
 
 // # Complexity
 // - Time complexity:
-// <!-- Add your time complexity here, e.g. $$O(n)$$ -->
+// O(1)
 
 // - Space complexity:
-// <!-- Add your space complexity here, e.g. $$O(n)$$ -->
+// O(1)
 
 // # Code
 // cpp 
