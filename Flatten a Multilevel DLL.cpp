@@ -2,14 +2,23 @@
 // Use recursion if child is found.
 
 // # Approach
-// <!-- Describe your approach to solving the problem. -->
+// -> Make a curr pointer which points to head.
+// -> Run a while loop till curr points to NULL.
+// -> if curr points to the element who have a child then create a next pointer which points to next of curr.
+// -> Call the function for curr's child has the next element of the node.
+// -> Since the list is double linked list then point the curr's next previous i.e. to curr.
+// -> And curr's child to NULL because now it has no child and all the child element has moved to the next of curr.
+// -> Move curr till curr next is not valid. Means curr will point to end node of the child.
+// -> Now the next pointer is pointing to curr's next which was at start.
+// -> If that next pointer if not null then connect curr to next as doubly linked list.
+// -> return head.
 
 // # Complexity
 // - Time complexity:
-// <!-- Add your time complexity here, e.g. $$O(n)$$ -->
+// O(N)
 
 // - Space complexity:
-// <!-- Add your space complexity here, e.g. $$O(n)$$ -->
+// O(1)
 
 // # Code
 // cpp []
