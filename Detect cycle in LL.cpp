@@ -2,15 +2,17 @@
 // -> Use fast and slow pointers.
 
 // # Approach
-// -> Create 2 pointers fast and slow.]
-// -> 
+// -> Create 2 pointers fast and slow.
+// -> Move fast pointer by 2 steps and slow by 1 step.
+// -> If both the pointers meet that means List has a cycle then return true.
+// -> Else return false.
 
 // # Complexity
 // - Time complexity:
-// <!-- Add your time complexity here, e.g. $$O(n)$$ -->
+// O(N)
 
 // - Space complexity:
-// <!-- Add your space complexity here, e.g. $$O(n)$$ -->
+// O(1)
 
 // # Code
 // cpp []
